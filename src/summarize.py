@@ -34,7 +34,7 @@ def summarize_with_groq(batch: List[Dict], input_data: List[Dict]) -> bool:
         )
         
         completion = client.chat.completions.create(
-            model="llama3-8b-8192",
+            model="openai/gpt-oss-20b",
             messages=[
                 {"role": "system", "content": "You are a helpful assistant that outputs only valid JSON."},
                 {"role": "user", "content": prompt}
