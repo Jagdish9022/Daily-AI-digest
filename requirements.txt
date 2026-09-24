@@ -1,0 +1,6 @@
+feedparser
+requests
+google-generativeai
+pydantic
+python-dotenv
+groq
