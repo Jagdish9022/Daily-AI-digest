@@ -37,8 +37,7 @@ def generate_html_email(articles: List[Dict]) -> str:
     </head>
     <body>
         <h1>Daily Digest - {date_str}</h1>
-    """
-    
+    """    
     has_content = False
     for cat in ["AI Engineering", "IT Industry", "World News", "Other"]:
         if categories[cat]:
