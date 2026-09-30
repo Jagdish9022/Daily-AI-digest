@@ -26,7 +26,7 @@ Add the following secrets:
 * `GEMINI_API_KEY`: Your Gemini API key.
 * `EMAIL_ADDRESS`: The Gmail address sending the email (e.g. `your.email@gmail.com`).
 * `EMAIL_APP_PASSWORD`: The 16-character Gmail App Password (no spaces). Do **not** use your regular email password.
-* `RECIPIENT_EMAIL`: The email address where you want to receive the digest.
+* `RECIPIENT_EMAIL`: The recipient email address(es). For multiple recipients, separate them with commas (e.g. `user1@gmail.com, user2@gmail.com`). Alternatively, you can add recipient emails directly into the `RECIPIENT_EMAILS` array in `src/send.py`.
 
 ### 3. Workflow Permissions
 Since the action commits the `sent_articles.json` file back to the repository to track state, ensure GitHub Actions has write access:
