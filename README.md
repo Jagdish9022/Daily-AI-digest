@@ -35,5 +35,5 @@ Since the action commits the `sent_articles.json` file back to the repository to
 3. Save the changes.
 
 ### 4. Running the Action
-- The action will automatically run every day at 7:00 AM IST.
+- The action will automatically run twice a day at 5:00 AM IST and 1:00 PM IST.
 - You can manually trigger it immediately by going to the `Actions` tab -> selecting `Daily AI Digest` -> `Run workflow`.
