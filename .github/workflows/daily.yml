@@ -2,9 +2,9 @@ name: Daily AI Digest
 
 on:
   schedule:
-    # 10:00 AM IST is 4:30 AM UTC
-    # 6:00 PM IST is 12:30 PM UTC
-    - cron: '30 4,12 * * *'
+    # 5:00 AM IST is 11:30 PM UTC (23:30 UTC)
+    # 1:00 PM IST is 7:30 AM UTC (07:30 UTC)
+    - cron: '30 7,23 * * *'
   workflow_dispatch:
 
 jobs:
